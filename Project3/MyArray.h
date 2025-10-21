@@ -74,7 +74,7 @@ inline void DynamicArray<T>::GetIndex(int number)
 		number = i;
 		cout << mas[number];
 	}
-	return mas[number];
+	return mas;
 }
 
 template<class T>
